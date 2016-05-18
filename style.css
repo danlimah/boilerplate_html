@@ -1,0 +1,142 @@
+/*
+Theme Name: [ Nome do Cliente ]
+Theme URI: http://enderecodosite.com.br
+Author: Daniel Aparecido de Lima
+Author URI: http://www.zimpbox.com/
+Description: Site feito do zero por Daniel Lima na Zimpbox, especialmente para [ Nome do Cliente ]
+Version: 1.0
+Tags: zimpbox, agencia, marketing digital
+Text Domain: enderecodosite
+*/
+
+
+/* Ajustes no Bootstrap */
+.dropdown-menu {
+	box-shadow: none;
+}
+
+.navbar {
+	border-radius: 0px;
+}
+
+.thumbnail {
+	padding: 0px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
+	outline: none;
+}
+
+.carousel-control {
+	background-image: none !important;
+}
+
+.carousel-caption {
+	height: 100%;
+}
+
+.carousel-caption h1 {
+	margin-top: 18%;
+}
+
+.breadcrumb {
+	border-radius: 0px;
+	margin-top: -21px;
+}
+
+#carousel-home {
+	margin-top: -21px;
+	margin-bottom: 21px;
+}
+
+#carousel-home img {
+	width: 100%;
+}
+
+textarea.form-control {
+	resize: none;
+}
+
+hr {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+}
+
+.carousel-caption h1 {
+	-webkit-animation-delay: 0.9s; /* Chrome, Safari, Opera */
+	animation-delay: 0.9s;
+}
+
+.carousel-caption p {
+	-webkit-animation-delay: 1.2s; /* Chrome, Safari, Opera */
+	animation-delay: 1.2s;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+/* Fim: Ajustes no Bootstrap */
+
+/* Sticky Footer */
+html {
+  position: relative;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+/* Fim: Sticky Footer */
+
+/* Masonry */
+article {
+   -moz-column-width: 20em;
+   -webkit-column-width: 20em;
+   -moz-column-gap: 1em;
+   -webkit-column-gap: 1em;
+
+}
+
+section {
+   display: inline-block;
+   margin:  0.25rem;
+   padding:  1px;
+   width:  100%;
+}
+/* Fim: Masonry */
+
+/* Fixar Menu no Topo */
+.topo_fixo {
+	width: 100%;
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+}
+
+
+
+
+
+#map {
+	width: 100%;
+	height: 350px;
+}
+
+a {
+	transition: 0.7s;
+}
+
+.copyright {
+	margin-top: 20px;
+	padding: 10px 0px;
+	background: rgba(0,0,0,.1);
+}

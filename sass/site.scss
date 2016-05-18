@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700"); 
+// font-family: 'Inconsolata', ;
+
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic"); 
+// font-family: 'PT Serif', serif;
+
+/* 
+Programacao: Daniel Lima
+Contato: daniel@zimpbox.com
+www.zimpbox.com
+*/
+
+// Variaveis
+$paleta: #18bc9c;
+$br: #ffffff;
+$pt: #000000;
+$fonte1: 'PT Serif', serif;
+$fonte2: 'Inconsolata', ;
+// Fim: Variaveis
+
+h1, h2, h3, h4, h5, h6, small, .lead {
+	font-family: $fonte1;
+}
+
+body {
+	font-family: $fonte2;
+}
+
+.footer, .navbar {
+	background: $paleta;
+
+	a {
+		color: rgba(0,0,0,.9)
+	}
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .group2 {
+        pointer-events: none;
+    }
+}
+
+
+// Carousel Fade Transition
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+// Fim: Carousel Fade Transition

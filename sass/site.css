@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic");
+/* 
+Programacao: Daniel Lima
+Contato: daniel@zimpbox.com
+www.zimpbox.com
+*/
+h1, h2, h3, h4, h5, h6, small, .lead {
+  font-family: "PT Serif", serif; }
+
+body {
+  font-family: "Inconsolata"; }
+
+.footer, .navbar {
+  background: #18bc9c; }
+  .footer a, .navbar a {
+    color: rgba(0, 0, 0, 0.9); }
+
+@media screen and (max-width: 992px) {
+  .group2 {
+    pointer-events: none; } }
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity; }
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+/*# sourceMappingURL=site.css.map */
